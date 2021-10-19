@@ -1,0 +1,87 @@
+a#logo
+{
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-family: monospace;
+    margin-top: 0.2em;
+}
+
+a#logo span
+{
+    display: inline-block;
+    background: #8c708b;
+    width: 0.6em;
+    height: 0.4em;
+}
+
+a#logo.no-cursor span
+{
+    display: none;
+}
+
+a.nav-item
+{
+    text-decoration: none;
+
+    background: #8c708b;
+    padding: 1em;
+}
+
+div.col-nav
+{
+    text-align: right;
+    padding: 0.5em;
+}
+
+div.separator
+{
+    border-bottom: 2px solid #a49898;
+}
+
+div.banner
+{
+    background: #565656;
+    height: 20em;
+}
+
+a#signature
+{
+    color: white;
+    background: #8c708b;
+}
+
+@media only screen and (max-width: 750px)
+{
+    div.col-nav
+    {
+        margin-top: 1em;
+        text-align: left;
+
+        width: 46%;
+        font-size: 0.75em;
+        padding-left: 2em;
+    }
+
+    div.sub-banner-a
+    {
+        display: absolute;
+        width: 60%;
+    }
+
+    div.sub-banner-b
+    {
+        display: absolute;
+        width: 40%;
+    }
+
+    div.sub-banner-c
+    {
+        display: absolute;
+        width: 100%;
+        margin-top: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 750px)
+{  }
