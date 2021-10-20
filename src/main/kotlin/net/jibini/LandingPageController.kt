@@ -19,7 +19,7 @@ import java.util.*
 @SpringBootApplication
 @Controller
 @Configuration
-open class Auth : WebMvcConfigurer
+open class LandingPageController : WebMvcConfigurer
 {
     @GetMapping("/")
     fun landingPageGetMapping(model: Model): String
@@ -50,6 +50,6 @@ object LandingPageControllerKt
     @JvmStatic
     fun main(args: Array<String>)
     {
-        SpringApplication.run(Auth::class.java, *args)
+        SpringApplication.run(LandingPageController::class.java, *args)
     }
 }

@@ -41,8 +41,8 @@ div.separator
 
 div.banner
 {
-    background: #565656;
-    height: 20em;
+    background: url('/images/banner3.svg');
+    background-size: cover;
 }
 
 a#signature
@@ -51,28 +51,65 @@ a#signature
     background: #8c708b;
 }
 
-@media only screen and (max-width: 750px)
+.mobile-only
 {
+    display: none;
+}
+
+.mobile-shorten
+{
+    min-width: 20em;
+}
+
+div#ethernet-hi
+{
+    background: url(/images/ethernet_hi.svg) no-repeat;
+    background-size: contain;
+    width: 14em;
+    height: 14em;
+    float: right;
+}
+
+@media only screen and (max-width: 780px)
+{
+    .mobile-indent
+    {
+        margin-left: -12.5%;
+    }
+
+    .mobile-shorten
+    {
+        min-width: 13.5em;
+    }
+
+    div#ethernet-hi
+    {
+        width: 30%;
+        height: 7em;
+    }
+}
+
+@media only screen and (max-width: 990px)
+{
+    .mobile-only
+    {
+        display: block;
+    }
+
     div.col-nav
     {
         margin-top: 1em;
         text-align: left;
 
-        width: 46%;
+        width: 10em;
         font-size: 0.75em;
-        padding-left: 2em;
-    }
-
-    div.sub-banner-a
-    {
-        display: absolute;
-        width: 60%;
+        padding-left: 1em;
     }
 
     div.sub-banner-b
     {
         display: absolute;
-        width: 40%;
+        width: 100%;
     }
 
     div.sub-banner-c
@@ -83,5 +120,5 @@ a#signature
     }
 }
 
-@media only screen and (min-width: 750px)
+@media only screen and (min-width: 990px)
 {  }

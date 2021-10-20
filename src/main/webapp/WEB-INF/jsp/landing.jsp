@@ -37,6 +37,8 @@
             <div class="col-6">
                 <a id="logo" href="/" class="text-light">Jibini<span><!--BLINK--></span></a>
             </div>
+            <hr style="color: transparent;" class="mobile-only">
+            <br class="mobile-only">
             <div class="col-2 col-nav container">
                 <span class="bg-light text-dark" style="padding: 1em;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-bookmark-fill" viewBox="0 0 16 16">
@@ -67,22 +69,136 @@
         <br>
 
         <div class="row">
-            <div class="col-12 container"><div class="banner"></div></div>
+            <div class="col-12 container">
+                <div class="banner">
+                    <div class="row">
+                        <div class="col-3 mobile-indent"></div>
+                        <div class="col-1" style="color: #d0f5c7;">
+                            <h2>{</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 mobile-indent"></div>
+                        <div class="col-5">
+                            <h2>I like good code.</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 mobile-indent"></div>
+                        <div class="col-5" style="font-size: 1.1em;">
+                            <p class="mobile-shorten">People are what make Open Source so powerful. I'm happy to contribute my work as thanks for every
+                                forum post, video tutorial, and OSS blog that got me here.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 mobile-indent"></div>
+                        <div class="col-5">
+                            <h2><a href="/projects" class="btn btn-secondary" style="background: #8c708b;">Project portfolio</a></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 mobile-indent"></div>
+                        <div class="col-1" style="color: #d0f5c7;">
+                            <h2>}</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <br>
 
         <div class="row">
-            <div class="col-4 sub-banner-a"><div style="height: 20em; background: white;"></div></div>
-            <div class="col-3 sub-banner-b"><div style="height: 20em; background: white;"></div></div>
-            <div class="col-5 sub-banner-c"><div style="height: 20em; background: white;"></div></div>
+            <div class="col-7 sub-banner-b">
+                <div class="container">
+                    <div id="ethernet-hi"></div>
+                    <h3>Thinking in networks</h3>
+                    <p>
+                        In both my hobbies and my career, I strive to develop
+                        solutions which can build outwards. Approaching problems
+                        with a good ounce of forethought can yield simple,
+                        scalable, and reliable applications for solve everyday
+                        problems. Simple solutions are in turn easier to implement,
+                        test, document, and explain to other team members.
+                    </p>
+                    <p>
+                        After all, we're nothing without our dev teams. The most
+                        powerful tool I've discovered in the workplace is peers.
+                        It is crucial to ask for feedback. Receiving suggestions
+                        graciously can help everybody work towards better code.
+                    </p>
+                </div>
+            </div>
+            <div class="col-5 sub-banner-c">
+                <div class="container">
+                    <h3>Technologies</h3>
+                    <p>I work daily with several industry standard tools in a
+                    professional enterprise environment.</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <strong>Web platforms</strong>
+                            <ul>
+                                <li>ASP.NET Core</li>
+                                <li>Bootstrap</li>
+                                <li>Spring Boot</li>
+                                <li>Linux Deployment</li>
+                                <li>IIS Deployment</li>
+                            </ul>
+                            <strong>Experience</strong>
+                            <ul>
+                                <li><strong>Netkinetix</strong>&#8212;
+                                    2021-current; software development for a
+                                    variety of clients using Microsoft .NET web
+                                    frameworks and technologies
+                                </li>
+                                <li><strong>Multistack, LLC.</strong>&#8212;
+                                    2019-2020; internal tool development with
+                                    Spring Boot for an ERP system
+                                </li>
+                                <li><strong>University</strong>&#8212;
+                                    This research was made possible through the
+                                    UW system. I was matched with professor who
+                                    oversaw the planning and development of  my
+                                    research projects.  For more info, see my
+                                    <a href="/projects" class="text-light">project page</a>.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <strong>Technologies</strong>
+                            <ul>
+                                <li>Java, Kotlin, and JVM platforms</li>
+                                <li>Visual Studio</li>
+                                <li>C#, Microsoft .NET Framework</li>
+                                <li>Git SCM (GitLab, DevOps, and more)</li>
+                            </ul>
+                            <strong>Other experience</strong>
+                            <ul>
+                                <li>C/C++ (modern and antiquated standards)</li>
+                                <li>Networked software</li>
+                                <li>OpenGL hardware-accelerated graphics</li>
+                                <li>JavaScript, CSS, TypeScript, etc.</li>
+                                <li><strong>Personal work</strong>&#8212;
+                                    I am proud of my drive to learn and create.
+                                    I've spent most of my life developing
+                                    personal <a href="/projects" class="text-light">projects</a>
+                                    and learning everything I can about
+                                    computers.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <br>
 
         <div class="row">
             <div class="col-12">
-                <h2>Hello, world!</h2>
+                <div class="container">
+                    <h3>Hello, world!</h3>
+                </div>
             </div>
         </div>
 
