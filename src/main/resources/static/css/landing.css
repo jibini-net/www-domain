@@ -65,10 +65,16 @@ div#ethernet-hi
 {
     background: url(/images/ethernet_hi.svg) no-repeat;
     background-size: contain;
-    width: 14em;
-    height: 14em;
+    width: 11em;
+    height: 11em;
     float: right;
 }
+
+.card
+ {
+     margin-top: 1em;
+     box-shadow: 0.1em 0.1em 0.2em #6f4668;
+ }
 
 @media only screen and (max-width: 780px)
 {

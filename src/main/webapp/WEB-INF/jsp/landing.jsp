@@ -35,7 +35,7 @@
         <div class="row nav-row" style="white-space: nowrap;">
             <div class="col-1"></div>
             <div class="col-6">
-                <a id="logo" href="/" class="text-light">Jibini<span><!--BLINK--></span></a>
+                <a id="logo" href="/" class="text-light">Zach Goethel<span><!--BLINK--></span></a>
             </div>
             <hr style="color: transparent;" class="mobile-only">
             <br class="mobile-only">
@@ -111,22 +111,49 @@
         <div class="row">
             <div class="col-7 sub-banner-b">
                 <div class="container">
-                    <div id="ethernet-hi"></div>
-                    <h3>Thinking in networks</h3>
-                    <p>
-                        In both my hobbies and my career, I strive to develop
-                        solutions which can build outwards. Approaching problems
-                        with a good ounce of forethought can yield simple,
-                        scalable, and reliable applications for solve everyday
-                        problems. Simple solutions are in turn easier to implement,
-                        test, document, and explain to other team members.
-                    </p>
-                    <p>
-                        After all, we're nothing without our dev teams. The most
-                        powerful tool I've discovered in the workplace is peers.
-                        It is crucial to ask for feedback. Receiving suggestions
-                        graciously can help everybody work towards better code.
-                    </p>
+                    <div class="card">
+                        <!--                        <img class="card-img-top" src="" alt="">-->
+                        <div class="card-body bg-dark" style="border-bottom: 1px solid white;">
+                            <h5 class="card-title">Hello, world!</h5>
+                        </div>
+                        <div class="card-body bg-dark">
+                            <p class="card-text">
+                                Welcome to my portfolio site. This is a living resume
+                                detailing my projects and prior experience. I believe
+                                strongly in open source software and sharing of code.
+                                If my contributions can help at least one person,
+                                I have made the world a better place.
+                            </p>
+                            <p class="card-text">
+                                Have a look around and have a great day!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+<!--                        <img class="card-img-top" src="" alt="">-->
+                        <div class="card-body bg-dark" style="border-bottom: 1px solid white;">
+                            <h5 class="card-title">My philosophy:</h5>
+                            <h6 class="card-subtitle mb-2">Thinking in networks</h6>
+                        </div>
+                        <div class="card-body bg-dark">
+                            <div id="ethernet-hi"></div>
+                            <p class="card-text">
+                                In both my hobbies and my career, I strive to develop
+                                solutions which can build outwards. Approaching problems
+                                with a good ounce of forethought can yield simple,
+                                scalable, and reliable applications for solving everyday
+                                problems. Simple solutions are in turn easier to implement,
+                                document, <i>test</i>, and explain to other team members.
+                            </p>
+                            <p class="card-text">
+                                The most powerful tool I've discovered in the workplace
+                                is peers. I value critical peer review and feedback above
+                                all else; after all, I'm nothing without the help of my
+                                team. Receiving suggestions graciously can help everybody
+                                work towards better code.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-5 sub-banner-c">
@@ -156,10 +183,11 @@
                                     Spring Boot for an ERP system
                                 </li>
                                 <li><strong>University</strong>&#8212;
-                                    This research was made possible through the
-                                    UW system. I was matched with professor who
-                                    oversaw the planning and development of  my
-                                    research projects.  For more info, see my
+                                    Some research was made possible through the
+                                    UW system. I was matched with Dr. Samantha Foley,
+                                    from the CS department, who oversaw the
+                                    planning and development of  my research projects.
+                                    For more info, see my
                                     <a href="/projects" class="text-light">project page</a>.
                                 </li>
                             </ul>
@@ -178,7 +206,7 @@
                                 <li>Networked software</li>
                                 <li>OpenGL hardware-accelerated graphics</li>
                                 <li>JavaScript, CSS, TypeScript, etc.</li>
-                                <li><strong>Personal work</strong>&#8212;
+                                <li>Personal work&#8212;
                                     I am proud of my drive to learn and create.
                                     I've spent most of my life developing
                                     personal <a href="/projects" class="text-light">projects</a>
@@ -188,16 +216,6 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <br>
-
-        <div class="row">
-            <div class="col-12">
-                <div class="container">
-                    <h3>Hello, world!</h3>
                 </div>
             </div>
         </div>
