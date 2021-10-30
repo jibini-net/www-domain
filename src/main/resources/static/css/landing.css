@@ -41,7 +41,7 @@ div.separator
 
 div.banner
 {
-    background: url('/images/banner3.svg');
+    background: url('/images/banner3.svg') fixed;
     background-size: cover;
 }
 
