@@ -112,11 +112,11 @@
             <div class="col-7 sub-banner-b">
                 <div class="container">
                     <div class="card">
-                        <!--                        <img class="card-img-top" src="" alt="">-->
-                        <div class="card-body bg-dark" style="border-bottom: 1px solid white;">
+                        <!--<img class="card-img-top" src="" alt="">-->
+                        <div class="card-body bg-muted-green" style="border-bottom: 1px solid white;">
                             <h5 class="card-title">Hello, world!</h5>
                         </div>
-                        <div class="card-body bg-dark">
+                        <div class="card-body bg-muted">
                             <p class="card-text">
                                 Welcome to my portfolio site. This is a living resume
                                 detailing my projects and prior experience. I believe
@@ -130,12 +130,12 @@
                         </div>
                     </div>
                     <div class="card">
-<!--                        <img class="card-img-top" src="" alt="">-->
-                        <div class="card-body bg-dark" style="border-bottom: 1px solid white;">
+                        <!--<img class="card-img-top" src="" alt="">-->
+                        <div class="card-body bg-muted-green" style="border-bottom: 1px solid white;">
                             <h5 class="card-title">My philosophy:</h5>
                             <h6 class="card-subtitle mb-2">Thinking in networks</h6>
                         </div>
-                        <div class="card-body bg-dark">
+                        <div class="card-body bg-muted">
                             <div id="ethernet-hi"></div>
                             <p class="card-text">
                                 In both my hobbies and my career, I strive to develop

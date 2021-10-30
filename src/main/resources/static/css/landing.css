@@ -76,6 +76,22 @@ div#ethernet-hi
      box-shadow: 0.1em 0.1em 0.2em #6f4668;
  }
 
+ .bg-muted
+ {
+    background: #edf7e8;
+    color: black;
+ }
+
+.bg-muted-green
+{
+    background: #23a56c;
+}
+
+.sub-banner-c
+{
+    color: #bdbdbd;
+}
+
 @media only screen and (max-width: 780px)
 {
     .mobile-indent
