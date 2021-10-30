@@ -1,0 +1,100 @@
+a#logo
+{
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-family: monospace;
+    margin-top: 0.2em;
+}
+
+a#logo span
+{
+    display: inline-block;
+    background: #8c708b;
+    width: 0.6em;
+    height: 0.4em;
+}
+
+a#logo.no-cursor span
+{
+    display: none;
+}
+
+a.nav-item
+{
+    text-decoration: none;
+
+    background: #8c708b;
+    padding: 1em;
+}
+
+div.col-nav
+{
+    text-align: right;
+    padding: 0.5em;
+}
+
+div.separator
+{
+    border-bottom: 2px solid #a49898;
+}
+
+div.banner
+{
+    background: url('/images/banner2.svg') fixed;
+    background-size: cover;
+}
+
+a#signature
+{
+    color: white;
+    background: #8c708b;
+}
+
+.mobile-only
+{
+    display: none;
+}
+
+.card
+ {
+     margin-top: 1em;
+     box-shadow: 0.1em 0.1em 0.2em #6f4668;
+ }
+
+.bg-muted
+{
+    background: #edf7e8;
+    color: black;
+}
+
+.bg-muted-green
+{
+    background: #23a56c;
+}
+
+@media only screen and (max-width: 780px)
+{
+
+}
+
+@media only screen and (max-width: 990px)
+{
+    .mobile-only
+    {
+        display: block;
+    }
+
+    div.col-nav
+    {
+        margin-top: 1em;
+        text-align: left;
+
+        width: 10em;
+        font-size: 0.75em;
+        padding-left: 1em;
+    }
+}
+
+@media only screen and (min-width: 990px)
+{  }

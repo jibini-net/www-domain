@@ -27,7 +27,7 @@ tasks.withType(KotlinCompile::class).all {
 }
 
 application {
-	mainClass.set("net.jibini.LandingPageControllerKt")
+	mainClass.set("net.jibini.LandingControllerKt")
 }
 
 repositories {

@@ -19,7 +19,7 @@ import java.util.*
 @SpringBootApplication
 @Controller
 @Configuration
-open class LandingPageController : WebMvcConfigurer
+open class LandingController : WebMvcConfigurer
 {
     @GetMapping("/")
     fun landingPageGetMapping(model: Model): String
@@ -40,7 +40,7 @@ open class LandingPageController : WebMvcConfigurer
     }
 }
 
-object LandingPageControllerKt
+object LandingControllerKt
 {
     /**
      * Entry-point; boots the Spring application.
@@ -50,6 +50,6 @@ object LandingPageControllerKt
     @JvmStatic
     fun main(args: Array<String>)
     {
-        SpringApplication.run(LandingPageController::class.java, *args)
+        SpringApplication.run(LandingController::class.java, *args)
     }
 }
